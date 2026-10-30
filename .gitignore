@@ -1,0 +1,49 @@
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/
+!.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Downloaded API responses and temporary data
+api_test_response.json
+*_to_*_20*.json
+*_classic_*.json
+data/responses/
+data/trade.db
+
+# Temporary files
+*.log
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Raw API responses
+*_response.json
+response_*.json
+comtrade_live_response.json
+
+# Temporary previews
+preview.html
+
+# Local data exports and database files
+*.sqlite
+*.db
+# Large source and reference files
+*.xlsx
+*.csv
+*.pdf

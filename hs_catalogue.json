@@ -1,0 +1,19 @@
+[
+  {"code": "61", "name": "Articles of apparel, knitted or crocheted", "category": "Textiles"},
+  {"code": "62", "name": "Articles of apparel, not knitted or crocheted", "category": "Textiles"},
+  {"code": "54", "name": "Man-made filaments; strip and the like", "category": "Textiles"},
+  {"code": "55", "name": "Man-made staple fibres", "category": "Textiles"},
+  {"code": "57", "name": "Carpets and other textile floor coverings", "category": "Textiles"},
+  {"code": "94", "name": "Furniture; bedding, mattresses; lamps and lighting fittings", "category": "Lamps & Furniture"},
+  {"code": "9405", "name": "Lamps and lighting fittings, not elsewhere specified", "category": "Lamps & Furniture"},
+  {"code": "85", "name": "Electrical machinery and equipment; electronics", "category": "Electronics"},
+  {"code": "8517", "name": "Electrical apparatus for line telephony/telegraphy (incl. phones)", "category": "Electronics"},
+  {"code": "8528", "name": "Monitors, projectors and television receivers", "category": "Electronics"},
+  {"code": "8471", "name": "Automatic data-processing machines (computers)", "category": "Electronics"},
+  {"code": "84", "name": "Nuclear reactors, boilers, machinery and mechanical appliances", "category": "Machinery"},
+  {"code": "73", "name": "Articles of iron or steel", "category": "Metals"},
+  {"code": "39", "name": "Plastics and articles thereof", "category": "Plastics"},
+  {"code": "64", "name": "Footwear, gaiters and the like", "category": "Other"},
+  {"code": "95", "name": "Toys, games and sports requisites", "category": "Other"},
+  {"code": "87", "name": "Vehicles other than railway or tramway rolling stock", "category": "Other"}
+]
