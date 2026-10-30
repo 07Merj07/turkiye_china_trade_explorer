@@ -10,10 +10,23 @@ load_dotenv()
 
 def get_connection():
     """Connect to the Neon PostgreSQL database."""
+
+    # First, check local environment variables.
     database_url = os.getenv("DATABASE_URL")
 
+    # If not found, check Streamlit Cloud secrets.
     if not database_url:
-        raise RuntimeError("DATABASE_URL is missing from .env")
+        try:
+            import streamlit as st
+            database_url = st.secrets["DATABASE_URL"]
+        except Exception:
+            database_url = None
+
+    if not database_url:
+        raise RuntimeError(
+            "DATABASE_URL is missing. "
+            "Set it in the .env file or Streamlit Cloud secrets."
+        )
 
     return psycopg.connect(database_url, row_factory=dict_row)
 
